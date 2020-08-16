@@ -10,4 +10,4 @@ eureka:
     fetch-registry: true
     service-url:
       defaultZone: http://root:root@localhost:9900/eureka/
-name: haha
+name: nihao
