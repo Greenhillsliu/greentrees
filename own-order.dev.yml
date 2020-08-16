@@ -1,0 +1,12 @@
+server:
+  port:
+    9902
+spring:
+  application:
+    name: own-order
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://root:root@localhost:9900/eureka/
